@@ -111,6 +111,8 @@ a.social{
 #projects{
     margin: 1% 0;
     align-content: center;
+
+    width: 20%;
 }
 button.card_item{
     order:1;
@@ -124,11 +126,12 @@ button.card_item:hover{
 
 }
 .cards{
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
     background-color: #efc4f5;
     box-shadow: 5px 8px 5px#75487A;
+    padding: 1%;
 }
 #contentDiv{
     width:360px;
