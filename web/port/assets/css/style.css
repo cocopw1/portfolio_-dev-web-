@@ -108,5 +108,5 @@ a.social{
   } 
 #projects{
     height: 300px;
-    align-self: center;
+    align-content: center;
 }
