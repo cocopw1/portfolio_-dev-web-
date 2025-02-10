@@ -7,12 +7,12 @@ margin: 0;
 padding: 0;
 }
 body{
-    background-color: #2a2a2a;
+    background-color: #70753B;
     margin: 0;
     padding: 0;
 }
 main{
-    background-color: #ffe;
+    background-color: #C8F5C4;
     min-height: 800px;
     height: fit-content;
     padding: 0px;
@@ -23,7 +23,7 @@ main{
     align-items: center;
 }
 footer{
-    color: #ffe;
+    color: #C8F5C4;
     padding: 1% 5%;
     text-align: center;
 }
@@ -41,7 +41,7 @@ a.head_button:visited{
 a.head_button:hover{
     order: -1;
     color: #efc4f5;
-    border-bottom: solid #ffe;
+    border-bottom: solid #C8F5C4;
 }
 
 a.head_button:link{
@@ -51,7 +51,7 @@ a.head_button:link{
     
 }
 .head_button{
-    color: #ffe;
+    color: #C8F5C4;
     padding: 1%;
 }
 img.head_button{
@@ -66,6 +66,7 @@ img.head_button{
     align-items: center;
     box-shadow: 5px 5px 10px#000;
     flex-wrap: nowrap;
+    background-color: #F1F5C4;
     width: 50%;
 
 }
@@ -107,4 +108,5 @@ a.social{
   } 
 #projects{
     height: 300px;
+    align-self: center;
 }
