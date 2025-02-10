@@ -1,0 +1,110 @@
+:root{
+    --primary-color:#
+}
+
+html{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: #2a2a2a;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #ffe;
+    min-height: 800px;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: #ffe;
+    padding: 1% 5%;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1% 1%;
+    color: #000;
+}
+a.head_button:visited{
+    order: -1;
+    color: #efc4f5;
+    
+}
+a.head_button:hover{
+    order: -1;
+    color: #efc4f5;
+    border-bottom: solid #ffe;
+}
+
+a.head_button:link{
+    text-decoration:none;
+    order: -1;
+    color: #efc4f5;
+    
+}
+.head_button{
+    color: #ffe;
+    padding: 1%;
+}
+img.head_button{
+    border-radius: 50%;
+    border: solid #000;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px#000;
+    flex-wrap: nowrap;
+    width: 50%;
+
+}
+.card_item{
+    order: 1;
+    margin:  0% 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+img.card_item{
+    border-radius: 50%;
+    border: solid #000;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a.social{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 66%;
+}
+.content{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.vertical-line { 
+    width: 1px; 
+    border-left: 1px solid #000; 
+    height: 100%; 
+  } 
+#projects{
+    height: 300px;
+}
